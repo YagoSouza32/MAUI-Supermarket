@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- Note: For Android please see also Platforms\Android\Resources\values\colors.xml -->
+
+    <!-- PRIMARY -->
+    <Color x:Key="Primary">#1A443D</Color>
+    <Color x:Key="PrimaryDark">#4CAF50</Color>
+    <Color x:Key="PrimaryContent">#141414</Color>
+    <Color x:Key="PrimaryContentDark">#919191</Color>
+
+    <!-- SECONDARY -->
+    <Color x:Key="Secondary">#DCF073</Color>
+    <Color x:Key="SecondaryDark">#BDE350</Color>
+    <Color x:Key="SecondaryContent">#1F1F1F</Color>
+    <Color x:Key="SecondaryContentDark">#1A1A1A</Color>
+
+    <!-- ACCENT -->
+    <Color x:Key="Accent">#5E35B1</Color>
+    <Color x:Key="AccentDark">#7E57C2</Color>
+    <Color x:Key="AccentContent">#FFFFFF</Color>
+    <Color x:Key="AccentContentDark">#FFFFFF</Color>
+
+    <!-- NEUTRAL -->
+    <Color x:Key="Neutral">#F3F3F3</Color>
+    <Color x:Key="NeutralDark">#1F1F1F</Color>
+    <Color x:Key="NeutralContent">#1F1F1F</Color>
+    <Color x:Key="NeutralContentDark">#E0E0E0</Color>
+
+    <!-- BASE -->
+    <Color x:Key="BaseContent">#1A1A1A</Color>
+    <Color x:Key="BaseContentDark">#EAEAEA</Color>
+
+    <!-- INFO -->
+    <Color x:Key="Info">#2196F3</Color>
+    <Color x:Key="InfoDark">#64B5F6</Color>
+    <Color x:Key="InfoContent">#FFFFFF</Color>
+    <Color x:Key="InfoContentDark">#1A1A1A</Color>
+
+    <!-- SUCCESS -->
+    <Color x:Key="Success">#4CAF50</Color>
+    <Color x:Key="SuccessDark">#81C784</Color>
+    <Color x:Key="SuccessContent">#FFFFFF</Color>
+    <Color x:Key="SuccessContentDark">#1A1A1A</Color>
+
+    <!-- WARNING -->
+    <Color x:Key="Warning">#FFC107</Color>
+    <Color x:Key="WarningDark">#FFD54F</Color>
+    <Color x:Key="WarningContent">#1A1A1A</Color>
+    <Color x:Key="WarningContentDark">#1A1A1A</Color>
+
+    <!-- ERROR -->
+    <Color x:Key="Error">#F44336</Color>
+    <Color x:Key="ErrorDark">#E57373</Color>
+    <Color x:Key="ErrorContent">#FFFFFF</Color>
+    <Color x:Key="ErrorContentDark">#1A1A1A</Color>
+
+
+    <!-- GRAY -->
+    <Color x:Key="Gray100">#E1E1E1</Color>
+    <Color x:Key="Gray200">#C8C8C8</Color>
+    <Color x:Key="Gray300">#ACACAC</Color>
+    <Color x:Key="Gray400">#919191</Color>
+    <Color x:Key="Gray500">#6E6E6E</Color>
+    <Color x:Key="Gray600">#404040</Color>
+    <Color x:Key="Gray900">#212121</Color>
+    <Color x:Key="Gray950">#141414</Color>
+    
+    <!-- OFF BLACK -->
+    <Color x:Key="Black90">#E6000000</Color>
+    <Color x:Key="Black50">#80000000</Color>
+    <Color x:Key="Black20">#33000000</Color>
+    <Color x:Key="TransparentColor">Transparent</Color>
+    
+    
+    <!-- BASED SOLID COLOR BRUSHES WITH APP THEME -->
+
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" />
+    <SolidColorBrush x:Key="PrimaryContentBrush" Color="{AppThemeBinding Light={StaticResource PrimaryContent}, Dark={StaticResource PrimaryContentDark}}" />
+
+    <SolidColorBrush x:Key="SecondaryBrush" Color="{AppThemeBinding Light={StaticResource Secondary}, Dark={StaticResource SecondaryDark}}" />
+    <SolidColorBrush x:Key="SecondaryContentBrush" Color="{AppThemeBinding Light={StaticResource SecondaryContent}, Dark={StaticResource SecondaryContentDark}}" />
+
+    <SolidColorBrush x:Key="AccentBrush" Color="{AppThemeBinding Light={StaticResource Accent}, Dark={StaticResource AccentDark}}" />
+    <SolidColorBrush x:Key="AccentContentBrush" Color="{AppThemeBinding Light={StaticResource AccentContent}, Dark={StaticResource AccentContentDark}}" />
+
+    <SolidColorBrush x:Key="NeutralBrush" Color="{AppThemeBinding Light={StaticResource Neutral}, Dark={StaticResource NeutralDark}}" />
+    <SolidColorBrush x:Key="NeutralContentBrush" Color="{AppThemeBinding Light={StaticResource NeutralContent}, Dark={StaticResource NeutralContentDark}}" />
+
+    <SolidColorBrush x:Key="BaseContentBrush" Color="{AppThemeBinding Light={StaticResource BaseContent}, Dark={StaticResource BaseContentDark}}" />
+
+    <SolidColorBrush x:Key="InfoBrush" Color="{AppThemeBinding Light={StaticResource Info}, Dark={StaticResource InfoDark}}" />
+    <SolidColorBrush x:Key="InfoContentBrush" Color="{AppThemeBinding Light={StaticResource InfoContent}, Dark={StaticResource InfoContentDark}}" />
+
+    <SolidColorBrush x:Key="SuccessBrush" Color="{AppThemeBinding Light={StaticResource Success}, Dark={StaticResource SuccessDark}}" />
+    <SolidColorBrush x:Key="SuccessContentBrush" Color="{AppThemeBinding Light={StaticResource SuccessContent}, Dark={StaticResource SuccessContentDark}}" />
+
+    <SolidColorBrush x:Key="WarningBrush" Color="{AppThemeBinding Light={StaticResource Warning}, Dark={StaticResource WarningDark}}" />
+    <SolidColorBrush x:Key="WarningContentBrush" Color="{AppThemeBinding Light={StaticResource WarningContent}, Dark={StaticResource WarningContentDark}}" />
+
+    <SolidColorBrush x:Key="ErrorBrush" Color="{AppThemeBinding Light={StaticResource Error}, Dark={StaticResource ErrorDark}}" />
+    <SolidColorBrush x:Key="ErrorContentBrush" Color="{AppThemeBinding Light={StaticResource ErrorContent}, Dark={StaticResource ErrorContentDark}}" />
+    
+    <SolidColorBrush x:Key="Gray100Brush" Color="{StaticResource Gray100}"/>
+    <SolidColorBrush x:Key="Gray200Brush" Color="{StaticResource Gray200}"/>
+    <SolidColorBrush x:Key="Gray300Brush" Color="{StaticResource Gray300}"/>
+    <SolidColorBrush x:Key="Gray400Brush" Color="{StaticResource Gray400}"/>
+    <SolidColorBrush x:Key="Gray500Brush" Color="{StaticResource Gray500}"/>
+    <SolidColorBrush x:Key="Gray600Brush" Color="{StaticResource Gray600}"/>
+    <SolidColorBrush x:Key="Gray900Brush" Color="{StaticResource Gray900}"/>
+    <SolidColorBrush x:Key="Gray950Brush" Color="{StaticResource Gray950}"/>
+
+    <SolidColorBrush x:Key="Black90Brush" Color="{StaticResource Black90}" />
+    <SolidColorBrush x:Key="Black50Brush" Color="{StaticResource Black50}" />
+    <SolidColorBrush x:Key="Black20Brush" Color="{StaticResource Black20}" />
+    <SolidColorBrush x:Key="TransparentBrush" Color="{StaticResource TransparentColor}" />
+
+    
+    <!--PADRÃO-->
+        
+    <Color x:Key="PrimaryDarkText">#242424</Color>
+    <Color x:Key="SecondaryDarkText">#9880e5</Color>
+    <Color x:Key="Tertiary">#2B0B98</Color>
+
+    <Color x:Key="White">White</Color>
+    <Color x:Key="Black">Black</Color>
+    <Color x:Key="Magenta">#D600AA</Color>
+    <Color x:Key="MidnightBlue">#190649</Color>
+    <Color x:Key="OffBlack">#1f1f1f</Color>
+       
+    <SolidColorBrush x:Key="TertiaryBrush" Color="{StaticResource Tertiary}"/>
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}"/>
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
+
+</ResourceDictionary>

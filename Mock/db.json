@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Arroz Branco Tipo 1",
+      "description": "Arroz branco de alta qualidade, ideal para refeições do dia a dia. Embalagem com 5kg.",
+      "category": "Grãos",
+      "price": 22.90
+    },
+    {
+      "id": 2,
+      "name": "Feijão Carioca Selecionado",
+      "description": "Feijão carioca com grãos selecionados, fonte de proteínas e fibras. Pacote com 1kg.",
+      "category": "Grãos",
+      "price": 8.50
+    },
+    {
+      "id": 3,
+      "name": "Macarrão Espaguete Tradicional",
+      "description": "Macarrão espaguete feito com trigo duro, ideal para massas clássicas. Embalagem com 500g.",
+      "category": "Massas",
+      "price": 4.20
+    },
+    {
+      "id": 4,
+      "name": "Leite Integral Longa Vida",
+      "description": "Leite integral UHT, rico em cálcio e vitaminas. Caixa com 1 litro.",
+      "category": "Laticínios",
+      "price": 4.90
+    },
+    {
+      "id": 5,
+      "name": "Queijo Mussarela Fatiado",
+      "description": "Queijo mussarela em fatias, perfeito para lanches e receitas. Pacote com 200g.",
+      "category": "Laticínios",
+      "price": 9.75
+    },
+    {
+      "id": 6,
+      "name": "Presunto Cozido Light",
+      "description": "Presunto fatiado com baixo teor de gordura. Ideal para sanduíches. Embalagem de 200g.",
+      "category": "Frios",
+      "price": 7.80
+    },
+    {
+      "id": 7,
+      "name": "Pão Francês Fresco",
+      "description": "Pão francês crocante por fora e macio por dentro. Vendido por unidade.",
+      "category": "Padaria",
+      "price": 0.80
+    },
+    {
+      "id": 8,
+      "name": "Manteiga com Sal Tradicional",
+      "description": "Manteiga com sal, cremosa e saborosa, ideal para receitas e café da manhã. Pote com 200g.",
+      "category": "Laticínios",
+      "price": 6.30
+    },
+    {
+      "id": 9,
+      "name": "Café Torrado e Moído",
+      "description": "Café com aroma intenso e sabor encorpado. Ideal para coador ou cafeteira. Pacote com 500g.",
+      "category": "Bebidas",
+      "price": 13.60
+    },
+    {
+      "id": 10,
+      "name": "Açúcar Refinado Branco",
+      "description": "Açúcar branco refinado de alta pureza, perfeito para bebidas e sobremesas. Pacote com 1kg.",
+      "category": "Mercearia",
+      "price": 3.40
+    }
+  ]
+}

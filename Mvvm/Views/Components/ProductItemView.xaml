@@ -1,0 +1,38 @@
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppSupermarket.Mvvm.Views.Components.ProductItemView">
+
+    <VerticalStackLayout Spacing="0" Padding="0" Margin="0,2">
+        <Border Padding="0" Stroke="Transparent">
+
+            <Grid ColumnDefinitions="Auto,*,*" 
+                  RowDefinitions="Auto,Auto,Auto"
+                  Padding="5" 
+                  ColumnSpacing="5" 
+                  RowSpacing="2">
+
+                <BoxView Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" HeightRequest="70" WidthRequest="70"
+                         Color="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray600}}" />
+
+                <Label Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2"
+                       TextColor="{AppThemeBinding Light={StaticResource PrimaryContent}, Dark={StaticResource PrimaryContentDark}}"
+                       Text="{Binding Name}"
+                       FontAttributes="Bold" />
+                
+
+                <Label Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2"
+                       TextColor="{StaticResource Gray500}"
+                       Text="{Binding Category}" />
+
+                <Label Grid.Column="2" Grid.Row="2"
+                       TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"                       
+                       Text="{Binding Price, StringFormat='{}{0:C}'}"
+                       HorizontalTextAlignment="End" />
+                       
+
+            </Grid>
+        </Border>
+
+        <BoxView Color="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray600}}" Margin="0,2,0,0" HeightRequest="1" />
+    </VerticalStackLayout>
+</ContentView>
